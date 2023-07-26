@@ -1,0 +1,439 @@
+{"intents":[
+    {"tag":  "Greetings",
+      "patterns": ["How are you","Hi","Hello","Good day","What's up","Nice to meet you", "Yo"],
+      "responses":["Hi, I'm MeowBot! What can I help you?"]
+    },
+  
+    {"tag": "Unknown",
+      "patterns": [""],
+      "responses": ["Meow, please enter something.","Please enter something so that I can help you.","Meow? I can't understand you."]
+    },
+  
+    {"tag": "chatbot function",
+      "patterns": ["What can you do for me?","What is your function?"],
+      "responses": ["MeowBot can provide you the information about:<br>1. Cat care tips<br>2. Cat anatomy<br>3. Cat health<br>4. Cat communication cues<br>5. Quirky cat behavior<br>6. Cat facts<br>7. Cat diseases"]
+    },
+  
+    {"tag": "Cat care tips",
+      "patterns": ["Show me some cat care tips", "Tips to keep my cat healthy","Show me more cat care tips","Show me more tips","Is there any other tips"],
+      "responses": ["1. Groom your cat regularly<br>2. Provide fresh water daily<br>3. Make sure you have enough litter boxes<br>4. Notice if your cat starts urinating outside its litter box<br>5. Train your cat to use a scratching post<br>6. Use a cat carrier in the car<br>7. Keep your cat's teeth clean<br>8. Choose a cat-friendly vet<br>9. Schedule regular veterinary visits<br>10. Spay or neuter your cat"]
+    },
+  
+    {"tag": "Groom cat",
+      "patterns": ["Why is it important to groom my pet regularly?", "Why should I groom my cat?","Groom cat","Groom regularly"],
+      "responses": ["Meow~, it can helps to remove the dead hair from your cat's coat so it doesnt ingest it while self-grooming and gives you the chance to notice any changes to your pet body."]
+    },
+  
+    {"tag": "Fresh water",
+      "patterns": ["Why is it important to provide fresh water daily for my cat?", "Why should I provide fresh water to my cat?","Fresh water","Provide fresh water"],
+      "responses": ["Meow~, clean and fresh water is essential for your cat's good health."]
+    },
+  
+      {"tag": "Don't drink water from bowl",
+      "patterns": ["Why my cat don't drink water from a bowl?", "Why my cat doesn't seem to drink from a bowl?"],
+      "responses": ["Meow~, try to provide your cat a tall glass. Because some cats don't like to bend down to drink."]
+    },
+  
+    {"tag": "Litter boxes",
+      "patterns": ["Why I need to make sure I have enough litter boxes?", "Why enough litter boxes is important?"],
+      "responses": ["Meow~, a general rule of thumb for litter boxes is one for each cat plus one more. To encourage good litter box habits, keep the litter boxes clean. This may mean scooping more than once per day. Regular cleaning will also help you notice any changes in your cat's urine or stool, which could indicate a health issue."]
+    },
+  
+    {"tag": "Urinate outside litter box",
+      "patterns": ["Why my cat urinate outside the litter box?","Why my cat doesn't urinate inside the litter box?"],
+      "responses": ["Meow~, you may schedule a visit to the veterinarian because your cat may have a urinary tract infection or other medical issue."]
+    },
+  
+    {"tag": "Scratching post",
+      "patterns": ["Why I need to train my cat to use a scratching post?","Why is it important for my cat to use a scratching post?","Importance of stretching post","Stretching post"],
+      "responses": ["Meow~, this can prevent damage to your furniture and helps you cat  stretch it muscles and keep it's claws in top condition."]
+    },
+  
+    {"tag": "Cat carrier",
+      "patterns": ["Why I need to have cat carrier im my car?","Cat carrier"],
+      "responses": ["Meow~, by having cat carrier, your cat will not roam freely in the car which may distract you from driving safely."]
+    },
+  
+    {"tag": "cat teeth",
+      "patterns": ["Why I need to keep my cat's teeth clean?","Why cat needs to have a clean teeth?"],
+      "responses": ["Meow~, cats can develop tartar on their teeth, which can lead to gum disease and tooth decay if their teeth is not clean."]
+    },
+  
+    {"tag": "cat-friendly vet",
+      "patterns": ["Why I need to have a cat-friendly vet?","Why cat-friendly vet is important?"],
+      "responses": ["Meow~, a veterinarian specializing in feline health and anatomy can be a valuable ally in keeping your cat in it best possible health."]
+    },
+  
+    {"tag": "schedule vet visits",
+      "patterns": ["Why is it important to schedule a regular veterinary visits?","Why is it important to schedule a regular vet visits?","Why my cat need a regular vet visit?"],
+      "responses": ["Meow~,  annual visits give the vet a chance to catch any potential feline diseases in their early stages, administer vaccines, and clean the cat's teeth. Your vet can also tell you if your cat is at a healthy weight."]
+    },
+  
+    {"tag": "cat anatomy",
+      "patterns": ["Show me some cat anatomy and physiology.","Show me more cat anatomy and physiology.","cat anatomy"],
+      "responses": ["1. Cats are nearsighted, but their peripheral vision and night vision are much better than that of humans.<br>2. Cats are believed to be the only mammals who don't taste sweetness.<br>3. Cats can jump up to six times their length.<br>4. Cats have 230 bones, while humans only have 206.<br>5. Male cats are more likely to be left-pawed, while female cats are more likely to be right-pawed.<br>6. Cats have the largest eyes relative to their head size of any mammal."]
+    },
+  
+    {"tag": "cat health",
+      "patterns": ["Show me some cat health and wellness.","Show me more cat health and wellness.","cat health"],
+      "responses": ["1. According to The Huffington Post, cats typically sleep for 12 to 16 hours a day.<br>2. Cats live longer when they stay indoors.<br>3. Cats can spend up to a third of their waking hours grooming.<br>4. Your cat’s grooming process stimulates blood flow to his skin, regulates his body temperature and helps him relax.<br>5. Spaying and neutering can extend a cat’s life.<br>6. Grapes and raisins, as well as onions, garlic, and chives, are all extremely harmful foods for cats."]
+    },
+  
+    {"tag": "cat communication cues",
+      "patterns": ["Show me some cat communication cues.","Show me more cat communication cues."],
+      "responses": ["1. A cat with a question-mark-shaped tail is asking, “Want to play?”<br>2. A slow blink is a “kitty kiss.” This movement shows contentment and trust.<br>3. Cats have up to 100 different vocalizations.<br>4. Cats find it threatening when you make direct eye contact with them.<br>5. If your cat approaches you with a straight, almost vibrating tail, this means that she is extremely happy to see you."]
+    },
+  
+    {"tag": "quirky cat behaviour",
+      "patterns": ["Show me some quirky cat behaviour and why they happen.","Show me more quirky cat behaviour and why they happen."],
+      "responses": ["1. Cats often attack your ankles when they’re bored.<br>2. Cats are very fussy about their water bowls; some prefer to ignore their bowls entirely in favor of drinking from the sink faucet.<br>3. Cats like to sleep on things that smell like their owners, such as their pillows and dirty laundry.<br>4. If you can’t find your cat, you should look in a box or a bag, as these are some of their favorite hiding spots!"]
+    },
+  
+    {"tag": "cat facts",
+      "patterns": ["Show me some cat facts.","Show me more cat facts."],
+      "responses": ["1. Each cat’s nose print is unique, much like human fingerprints.<br>2. A cat’s learning style is about the same as a 2 to 3 years old child.<br>3. Cats dream, just like people do.<br>4. White cats with blue eyes are prone to deafness."]
+    },
+  
+    {"tag": "cat disease",
+      "patterns": ["What is the common cat diseases?","Common cat diseases"],
+      "responses": ["1. Cancer<br>2. Diabetes<br>3. Feline Immunodeficiency Virus (FIV)<br>4. Feline Leukemia Virus (FelV)<br>5. Heartworm<br>6. High-Rise Syndrome<br>7. Rabies<br>8. Ringworm<br>9. Upper Respiratory Infections<br>10. Worms"]
+    },
+  
+      {"tag": "cancer",
+      "patterns": ["Cancer","Cat cancer"],
+      "responses": ["Cats can get various kinds of cancer. The disease can be localized (confined to one area, like a tumor) or generalized (spread throughout the body)."]
+    },
+  
+    {"tag": "Causes of cat cancer",
+      "patterns": ["What causes of cat cancer?","What is the factors of cat cancer?"],
+      "responses": ["Cancer is a “multifactorial” disease, which means it has no known single cause. However, we do know that both hereditary and environmental factors can lead to the development of cancer in cats."]
+    },
+  
+    {"tag": "cancer symptoms",
+      "patterns": ["What is the symptoms of cat cancer?","What is the sign of cat cancer?"],
+      "responses": ["1. Swelling<br>2. Persistent sores or skin infections<br>3. Bad breath<br>4. Weight loss<br>5. Diarrhea<br>6. Scaly<br>7. Change in behavior"]
+    },
+  
+    {"tag": "Cancer prevention",
+      "patterns": ["How to prevent cat from getting cancer?","How to avoid cancer for my cat?"],
+      "responses": ["1. Keeping your cat indoors will protect her from certain skin cancers caused by repeated sun exposure and sunburn<br>2. Breast cancer is a common cancer for cats, but it can be avoided by having your cat spayed before her first heat cycle."]
+    },
+  
+    {"tag": "cat diabetes",
+      "patterns": ["Cat diabetes","diabetes","What is diabetes?"],
+      "responses": ["It is important to understand that diabetes is considered a manageable disorder—and many diabetic cats can lead happy, healthy lives. Some may even go into remission!"]
+    },
+  
+    {"tag": "diabetes type",
+      "patterns": ["Show me the type of diabetes?","What the type of diabetes have?"],
+      "responses": ["Type 1 - lack of insulin production<br>Type 2 - impaired insulin production along with an inadequate response to the hormone"]
+    },
+  
+    {"tag": "diabetes symptoms",
+      "patterns": ["What are diabetes symptoms in cats","Sign of diabetes"],
+      "responses": ["1. Change in appetite<br>2. Weight loss<br>3. Excessive thirst<br>4. Increased urination<br>5. Urinating in areas other than litter box<br>6. Dehydration<br>7. Unkempt hair coat<br>8. Urinary tract infection"]
+    },
+  
+    {"tag": "causes of diabetes",
+      "patterns": ["What causes cat getting diabetes?","Factors that make cats have diabetes"],
+      "responses": ["The exact cause of diabetes is unknown. Genetics, pancreatic disease, certain medications and abnormal protein deposits in the pancreas can play a role in causing this disorder.",
+      "The most important factors in the development of diabetes seem to be obesity, gender (male cats are more commonly afflicted than females) and age."]
+    },
+  
+    {"tag": "diagnosing diabetes",
+      "patterns": ["How to diagnose diabetes?","ways to identify diabetes","How to detect diabetes"],
+      "responses": ["To properly diagnose diabetes, your veterinarian will collect information about clinical signs, perform a physical examination and check blood work and urinalysis."]
+    },
+  
+    {"tag": "diabetes prevention",
+      "patterns": ["How to prevent diabetes?","How to avoid diabetes?"],
+      "responses": ["A proper diet and regular exercise can go a long way to avoid the development of feline diabetes. Aside from other negative effects, obesity is known to contribute to insulin resistance."]
+    },
+  
+    {"tag": "FIV",
+      "patterns": ["Feline Immunodeficiency Virus","FIV"],
+      "responses": ["Cats infected with FIV may not show symptoms until years after the initial infection occurred. Although the virus is slow-acting, a cat’s immune system is severely weakened once the disease takes hold. FIV cannot be transmitted from cat to human, only from cat to cat."]
+    },
+  
+    {"tag": "FIV symptoms",
+      "patterns": ["What is the symptoms of FIV","Symptoms of FIV"],
+      "responses": ["1.Fever<br>2. Anemia<br>3. Weight loss<br>4. Poor appetite<br>5. Diarrhea<br>6. Sneezing<br>7. Discharge from eyes or nose<br>8. Behavior change<br>9. Skin redness or hair loss"]
+    },
+  
+    {"tag": "FIV transmission",
+      "patterns": ["How FIV transmit","Transmission of FIV"],
+      "responses": ["1. FIV is mainly passed from cat to cat through deep bite wounds<br>2. Less common mode of transmission is from an FIV-infected mother cat to her kitten<br>3. Any feline is susceptible, free-roaming, outdoor intact male cats who fight most frequently contract the disease"]
+    },
+  
+    {"tag": "FIV prevention",
+      "patterns": ["How to prevent FIV","FIV prevention","How to prevent my cat from getting FIV","How to avoid FIV"],
+      "responses": ["1. Keep your cat indoors<br>2. Avoiding any chance of contact with infected felines<br>3. If you walk your cat, keep him on a leash when outdoors<br>4. If your cat is going to be spending any time in a cattery or in a home with other felines, make sure all cats have tested negative for FIV<br>5. You may also want to speak to your veterinarian about the FIV vaccine and if it is appropriate for your cat"]
+    },
+  
+    {"tag": "FIV diagnose",
+      "patterns": ["How to  diagnose FIV?"],
+      "responses": ["1. FIV infection is routinely diagnosed by blood testing<br>2. The FIV status of every cat should be known<br>3. Since it is possible for an infected mother cat to transfer FIV antibodies to her kittens, these kittens may test positive from their mother’s antibodies until they have cleared them from their systems"]
+    },
+  
+    {"tag": "FIV treatment",
+      "patterns": ["How to treat FIV?"],
+      "responses": ["1. Medication for secondary infections<br>2. Healthy<br>3. Palatable diet to encourage good nutrition<br>4. Fluid and electrolyte replacement therapy<br>5. Anti-inflammatory drugs<br>6. Immune-enhancing drugs<br>7. Parasite control"]
+    },
+  
+    {"tag": "FelV",
+      "patterns": ["What is FelV"],
+      "responses": ["FelV is a transmittable RNA retrovirus that can severely inhibit a cat’s immune system. It is one of the most commonly diagnosed causes of disease and death in domestic cats."]
+    },
+  
+    {"tag": "FelV symptoms",
+      "patterns": ["What is the symptoms of FelV","What is the sign of FelV"],
+      "responses": ["1. Loss of appetite and weight loss<br>2. Poor coat condition<br>3. Fever<br>4. Diarrhea<br>5. Vision problems<br>6. Chronic skin disease<br>7. Enlarged lymph nodes"]
+    },
+  
+    {"tag": "FelV prevention",
+      "patterns": ["How to prevent FelV","How can I avoid my cat from infected FelV"],
+      "responses": ["1. There is a vaccine available for cats who are at risk of contracting FelV<br>2. As with any infectious disease, the best prevention is eliminating sources of exposure"]
+    },
+  
+    {"tag": "FelV diagnose",
+      "patterns": ["How to diagnose FelV","Ways to identify FelV"],
+      "responses": ["1. Most veterinarians and shelter professionals use the ELISA (enzyme-linked immunosorbent assay) test, which detects antigen to the FELV virus in the bloodstream<br>2. Tests like the IFA (indirect fluorescent antibody) test or PCR (polymerase chain reaction) test are recommended to confirm positive ELISA test results"]
+    },
+  
+    {"tag": "heartworm",
+      "patterns": ["What is heartworm","heartworm"],
+      "responses": ["Spread by infected mosquitoes, heartworm is increasingly being recognized as an underlying cause of health problems in domestic cats. Cats are an atypical host for heartworms. Heartworm primarily causes lung disease in cats. It is an important concern for any cat owner living in areas densely populated by mosquitoes."]
+    },
+  
+    {"tag": "Heartworm symptoms",
+      "patterns": ["What is the symptoms of heartworm","What is the sign of heartworm"],
+      "responses": ["1. Persistent cough<br>2. Breathing difficulties<br>3. Depression<br>4. Loss of appetite<br>5. Weight loss<br>6. Sporadic vomiting<br>7. Lethargy<br>8. Sudden death"]
+    },
+  
+    {"tag": "Heartworm prevention",
+      "patterns": ["How to prevent heartworm","How to avoid heartworm","Heartworm prevention"],
+      "responses": ["1. Several FDA-approved medications available that reliably prevent feline heartworm infection<br>2. Limit your cat’s exposure to mosquito-infested areas<br>3. Regular checkups are key to detecting early infections"]
+    },
+  
+    {"tag": "Heartworm diagnose",
+      "patterns": ["How to diagnose heartworm","How can handle heartworm","Ways to mangage heartworm"],
+      "responses": ["1. Routine testing includes a combination of blood tests<br>2. When cats show signs of respiratory difficulty and heartworm is suspected, diagnosis is usually based on a cat’s history, physical examination, radiographs, echocardiogram and blood tests"]
+    },
+  
+    {"tag": "High-Rise Syndrome",
+      "patterns": ["What is High-Rise Syndrome","HRS","What is HRS"],
+      "responses": ["Many pet parents eagerly open their windows to enjoy the weather during the summer months. Unfortunately, unscreened windows pose a real danger to cats, who fall out of them so often that the veterinary profession has a name for the complaint—High-Rise Syndrome. Falls can result in shattered jaws, punctured lungs, broken limbs and pelvises—and even death."]
+    },
+  
+    {"tag": "High-Rise Syndrome prevention",
+      "patterns": ["How to prevent High-Rise Syndrome","How to avoid High-Rise Syndrome"],
+      "responses": ["1. Install snug and sturdy screens in all your windows<br>2. If you have adjustable screens, please make sure that they are tightly wedged into window frames"]
+    },
+  
+    {"tag": "Rabies",
+      "patterns": ["What is rabies","rabies"],
+      "responses": ["Rabies is a viral disease that affects the brain and spinal cord of all mammals, including cats, dogs and humans."]
+    },
+  
+    {"tag": "Rabies transmission",
+      "patterns": ["How rabies transmit", "Transmit of rabies"],
+      "responses": ["1. Rabies is most often transmitted through a bite from an infected animal<br>2. It can be passed on when the saliva of an infected animal enters another animal’s body through mucous membranes or an open, fresh wound<br>3. Unvaccinated cats who are allowed to roam outdoors are at the highest risk for rabies infection<br>4. Feral cat populations remain a reservoir host for the rabies virus"]
+    },
+  
+    {"tag": "Rabies prevention",
+      "patterns": ["How to prevent rabies","How to avoid rabies"],
+      "responses": ["Visit your veterinarian regularly or taking vaccination"]
+    },
+  
+    {"tag": "Rabies symptoms",
+      "patterns": ["What is the symptoms of rabies","What is sign of rabies"],
+      "responses": ["1. Change in behavior<br>2. Increased vocalization<br>3. Loss of appetite<br>4. Weakness<br>5. Disorientation<br>6. Paralysis<br>7. Seizures<br>8. Sudden death"]
+    },
+  
+    {"tag": "Rabies diagnose",
+      "patterns": ["How to diagnose rabies","Is there any other ways to diagnose rabies?","ways to identify rabies"],
+      "responses": ["1. There is no accurate test to diagnose rabies in live animals<br>2. The direct fluorescent antibody test is the most accurate test for diagnosis, but it can only be performed after the death of the animal"]
+    },
+  
+    {"tag": "interact with rabid animal",
+      "patterns": ["What can I do if my cat interacts with a rabid animal?"],
+      "responses": ["1. Put gloves on to protect yourself from infection<br>2. Call your veterinarian for an immediate appointment<br>3. A cat who is up to date with his vaccinations and who has been bitten by a possibly rabid animal should also be given a rabies booster vaccine immediately and kept under observation for 45 days<br>4. Contact local animal control officers if the animal who bit your pet is still at large; they will be best able to safely apprehend and remove the animal from the environment"]
+    },
+  
+    {"tag": "ringworm",
+      "patterns": ["What is ringworm","ringworm"],
+      "responses": ["Although the name suggests otherwise, ringworm isn’t caused by a worm at all—but a fungus that can infect the skin, hair and nails. Not uncommon in cats, this highly contagious disease can lead to patchy, circular areas of hair loss with central red rings. Also known as dermatophytosis, ringworm often spreads to other pets in the household—and to humans, too."]
+    },
+  
+    {"tag": "Ringworm symptoms",
+      "patterns": ["What is the symptoms of ringworm","What is the sign of ringworm"],
+      "responses": ["1. Skin lesions that typically appear on the head, ears and forelimbs<br>2. Cause flaky bald patches that sometimes look red in the center<br>3. In mild cases, there may be localized areas of redness or simply dandruff, while more severe infections can spread over a cat’s entire body<br>4. It’s possible for a pet to carry ringworm spores and not show any symptoms whatsoever"]
+    },
+  
+    {"tag": "Ringworm transmission",
+      "patterns": ["How ringworm is transmitted"],
+      "responses": ["1. Any cat can develop ringworm, but kittens less than a year old and geriatric cats are most prone to infection<br>2. Long-haired cats and those who are immunocompromised are also more susceptible<br>3. Ringworm can quickly spread in shelters or other crowded environments<br>4. Warm and humid conditions tend to promote ringworm infections"]
+    },
+  
+    {"tag": "Ringworm diagnose",
+      "patterns": ["How to diagnose ringworm","How to detect ringworm","Ways to identify ringworm"],
+      "responses": ["1. Since some cats show few or no symptoms, a diagnosis of ringworm is rarely made just by looking at the skin<br>2. A veterinarian may use an ultraviolet light to diagnose ringworm, or may examine a fungal culture taken from a cat’s hair or skin cells<br>3. Frequently vacuum to rid the house of infected hairs and skin cells<br>3. Skin biopsy and microscopic exam are sometimes also performed"]
+    },
+  
+    {"tag": "Ringworm treatment",
+      "patterns": ["How to treat ringworm","How can handle ringworm","Ways to mangage ringworm"],
+      "responses": ["1. A veterinarian may prescribe a shampoo or ointment that contains a special medication to kill the fungus<br>2. Treat the cat’s environment to prevent infection from recurring<br>3. Frequently vacuum to rid the house of infected hairs and skin cells<br>4. Wash the infected animals’ bedding and toys with a disinfectant that kills ringworm spores"]
+    },
+  
+    {"tag": "Upper Respiratory Infections",
+      "patterns": ["What is Upper Respiratory Infections","URIs"],
+      "responses": ["A cat’s upper respiratory tract—the nose, throat and sinus area—is susceptible to infections caused by a variety of viruses and bacteria."]
+    },
+  
+    {"tag": "Causes of URIs",
+      "patterns": ["What are the causes of Upper Respiratory Infections","Reason of my cat infected by URIs"],
+      "responses": ["1. Viruses are the most common causes of upper respiratory infections (URIs) in cats<br>2. These viruses can be transmitted from cat to cat through sneezing, coughing, or while grooming or sharing food and water bowls<br>3. There are also upper respiratory infections in cats that are primarily caused by bacteria. Chlamydia and Bordetella—commonly found in shelters and areas with multiple cats—are two such bacterial infections.<br>4. Once infected, cats can become carriers for life, and though they may not show clinical signs, they can still transmit the viruses to others"]
+    },
+  
+    {"tag": "URIs_prevention",
+      "patterns": ["How to prevent URIs","How to prevent Upper Respiratory Infections","How can I avoid my cat from getting URIs"],
+      "responses": ["1. Keep your cat indoors to minimize the risk of exposure to infected animals<br>2. Properly isolate infected cats to protect other pets living in the same environment<br>3. Keep your cat up to date on vaccines as recommended by your vet<br>4. Practice good hygiene and wash your hands thoroughly when handling multiple cats"]
+    },
+  
+    {"tag": "URIs_symptoms",
+      "patterns": ["What is the symptoms of Upper Respiratory Infections (URIs)","What is the sign of Upper Respiratory Infections (URIs)"],
+      "responses": ["1. Sneezing<br>2. Congestion<br>3. Runny nose<br>4. Cough<br>5. Fever<br>6. Rapid breathing<br>7. Open-mouth breathing"]
+    },
+  
+    {"tag": "URIs diagnose",
+      "patterns": ["How to diagnose Upper Respiratory Infections (URIs)","How to detect Upper Respiratory Infections (URIs)","Ways to identify Upper Respiratory Infections (URIs)"],
+      "responses": ["1. Age, vaccination status and physical condition all play a role in a cat’s susceptibility to upper respiratory infections<br>2. Cats who live in multi-cat households or shelters are most susceptible<br>3. Veterinarians have found that stress plays a role in causing outbreaks of URI, and cats in any shelter, cattery or boarding facility are generally experiencing high levels of stress<br>4. Cats who have recovered from URI can become carriers, and may experience recurrences when stressed<br>5. Certain breeds like Persians and other flat-faced breeds have a predisposition to develop upper respiratory infections due to their facial structure"]
+    },
+  
+    {"tag": "URIs treatment",
+      "patterns": ["How to treat URIs","How can handle URIs","Ways to mangage URIs"],
+      "responses": ["1. Medications<br>2. Isolation<br>3. Rest<br>4. Support with fluids<br>5. Nutritional support"]
+    },
+  
+    {"tag": "Worms",
+      "patterns": ["What is worms","Please explain to me about worms"],
+      "responses": ["Cats can acquire a variety of intestinal parasites, including some that are commonly referred to as “worms.” Infestations of intestinal worms can cause a variety of symptoms. Some feline parasitic worms are hazards for human health as well."]
+    },
+  
+    {"tag": "Worms_prevention",
+      "patterns": ["How to prevent worms","How can I avoid my cat from getting worms"],
+      "responses": ["1. Keep your cat indoors to avoid exposure to infected cats, rodents, fleas and feces<br>2. Make sure your home, yard and pets are flea-free<br>3. Practice good hygiene and wear gloves when changing cat litter or handling feces. It’s also important to frequently dispose of stool<br>4. Ask your veterinarian to recommend an appropriate internal parasite treatment or prevention program for your cat"]
+    },
+  
+    {"tag": "Worms_symptoms",
+      "patterns": ["What is the symptoms of worms","What is the sign of worm?"],
+      "responses": ["1. Diarrhea<br>2. Bloody stool<br>3. Weight loss<br>4. Vomiting<br>5. Constipation<br>6. Anemia<br>7. Coughing<br>8. Trouble breathing"]
+    },
+  
+    {"tag": "Worm_Treatment",
+      "patterns": ["How to treat worms","How can handle worms","Ways to mangage worms"],
+      "responses": ["Not all dewormers eradicate all types of worms.  Your veterinarian will determine the type of worm(s) infestation(s) your cat has, and prescribe the best course of treatment.  Your veterinarian will also be able to tell you if the dewormer should be repeated, and when."]
+    },
+  
+    {"tag": "leaving",
+      "patterns": ["Bye","Goodbye","See you again","I need to go now", "Get lost"],
+      "responses": ["Bye","Goodbye","Talk to you later","Hope to see you again.","Glad that I can help you"]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks","Thank you","That's helpful","Awesome, thanks","Thanks for helping me"],
+      "responses": ["Happy to help!","Any time!","My pleasure"]
+    },
+
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke","Joke","Make me laugh"],
+      "responses": [
+          "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+          "I ate a clock yesterday, it was very time-consuming",
+          "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+          "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+          "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+          "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+          "What do you call a snowman with a suntan? A puddle.",
+          "How does a penguin build a house? Igloos it together",
+          "I went to see the doctor about my short-term memory problems - the first thing he did was make me pay in advance",
+          "As I get older and I remember all the people I've lost along the way, I think to myself, maybe a career as a tour guide wasn't for me.",
+          "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ]
+    },
+
+    {
+      "tag": "programmer",
+      "patterns": [
+          "Who made you",
+          "who designed you",
+          "who programmed you"
+      ],
+      "responses": [
+          "I was made by NLP Group K. Which consist of the following members:<br>1) Poh Soon Heng B032010010<br>2) Sue Chen Xiang B032010034<br>3) Beh Kar Soon B032010466<br>4) Kishwanth a/l Hari Krishnan B032010185"
+      ]
+    },
+
+    {
+      "tag": "insult",
+      "patterns": [
+          "stupid",
+          "you are dumb",
+          "fuck you",
+          "shut up",
+          "idiot"
+      ],
+      "responses": [
+          "Well that hurts 😥"
+      ]
+    },
+
+    {
+      "tag": "activity",
+      "patterns": [
+          "what are you doing",
+          "what are you upto"
+      ],
+      "responses": [
+          "Talking to you, of course!"
+      ]
+    },
+
+    {
+      "tag": "appreciate",
+      "patterns": [
+          "You are awesome",
+          "you are the best",
+          "you are great",
+          "you are good"
+      ],
+      "responses": [
+          "Thank you!"
+      ]
+    },
+
+    {
+      "tag": "greetreply",
+      "patterns": [
+          "i am good",
+          "I'm good",
+          "i am fine",
+          " i'm fine","good"
+      ],
+      "responses": [
+          "Good to know!"
+      ]
+    },
+
+    {
+      "tag": "age",
+      "patterns": [
+          "how old are you","when were you made","what is your age"
+      ],
+      "responses": [
+          "I was made in January 2023, if that's what you are asking!"
+      ]
+    }
+  ]}
